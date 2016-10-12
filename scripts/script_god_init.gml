@@ -1,8 +1,8 @@
 self.dirty_tiles = false;
 for (y = 0;y < ROOM_HEIGHT; y++) {
     for (x = 0;x < ROOM_WIDTH; x++) {
-        rand = random(10);
-        if (rand < 2) {
+        rand = random(9);
+        if (rand < 3) {
             self.tiles[x,y] = tile_type.red;
         } else if (rand < 6) {
             self.tiles[x,y] = tile_type.green;
